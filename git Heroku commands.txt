@@ -1,0 +1,46 @@
+GIT
+
+1. Create a new repository in Git
+2. open the terminal
+3. Set your local project as current working directory
+4. Initialize the local directory as Git repository.
+   "git init"
+5. Add the files in your new local repository. ypur files will now be staged for the first commit.
+  "git add ." to add files.
+  "git status" to check the status.
+6. commit the files that you have staged in your local repository.
+  'git commit -m "First Commit"'
+7. Copy the remote repositor's URL. copy the URL from git for created repository  (https://github.com/sivakumar85/sivasfdcapp.git).
+8. Add the URL for the remote repository where your local repository will be pushed.
+   "git remote add origin https://github.com/sivakumar85/sivasfdcapp.git"
+9. Push the Code in your local repository to Github.
+   "git push --set-upstream origin master"
+10. View your files in your repository.
+
+Heroku
+
+1. Login to heroku app.
+2. Create new app.
+3. Goto the created app. Clicl Deploy Tab.
+4. Under Deployment method, Select GitHub. Authorize the Your github account.
+5. Add github repository you want to deploy to heroku app. 
+6. Select the branch and deply.
+
+
+
+
+
+git remote add origin https://github.com/sivakumar85/package-from-xlsx.git
+
+
+heroku create -- creates app 
+git push heroku master -- deploy from local to heroku
+
+git init
+git add --update
+git commit -m "Commit message goes here"
+git push
+
+git remote add package-from-xlsx https://git.heroku.com/package-from-xlsx.git
+git remote add package-gen-teja https://git.heroku.com/package-gen-teja.git
+git push package-from-xlsx master
