@@ -41,7 +41,7 @@ angular.module('forceng', [])
 
     // if page URL is http://localhost:3000/myapp/index.html, oauthCallbackURL is http://localhost:3000/myapp/oauthcallback.html
     // To override default, pass oauthCallbackURL in init(props)
-      oauthCallbackURL = baseURL + '/oauthcallback.html',
+      oauthCallbackURL = baseURL + '/oauthcallback.php',
 
     // Because the OAuth login spans multiple processes, we need to keep the login success and error handlers as a variables
     // inside the module instead of keeping them local within the login function.
